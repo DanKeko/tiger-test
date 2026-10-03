@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>一起去散步 · 猫咪骑大象</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; background: #f5efe4; color: #385151; font-family: "PingFang SC", "Microsoft YaHei", sans-serif; }
+    main { width: min(960px, 100%); text-align: center; }
+    .eyebrow { font-size: 11px; letter-spacing: .3em; color: #8c967f; }
+    h1 { margin: 12px 0 8px; font-size: clamp(26px, 5vw, 40px); font-weight: 600; letter-spacing: .12em; }
+    p { margin: 0; font-size: 14px; color: #819082; letter-spacing: .08em; }
+    svg { display: block; width: 100%; height: auto; margin: 16px auto; }
+    footer { font-size: 12px; color: #929781; letter-spacing: .14em; padding-bottom: 12px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">LITTLE FRIENDS, BIG ADVENTURES</div>
+    <h1>一起去散步</h1>
+    <p>路很长，和你一起就不着急。</p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" role="img" aria-labelledby="scene-title scene-desc">
+      <title id="scene-title">猫咪骑大象</title>
+      <desc id="scene-desc">戴着绿色小围巾的橘猫坐在大象背上的红色毯子上，蓝灰色的大象卷起长鼻子，载着猫咪穿过阳光下的花草地。</desc>
+      <defs>
+        <linearGradient id="sky" x2="0" y2="1">
+          <stop stop-color="#e6eee5"/><stop offset="1" stop-color="#f4efdc"/>
+        </linearGradient>
+        <linearGradient id="elephant" x2=".8" y2="1">
+          <stop stop-color="#9ebbc0"/><stop offset="1" stop-color="#769da5"/>
+        </linearGradient>
+        <pattern id="blanket" width="34" height="34" patternUnits="userSpaceOnUse">
+          <rect width="34" height="34" fill="#cb7865"/>
+          <path d="M17 7 25 17 17 27 9 17Z" fill="none" stroke="#f8d49b" stroke-width="2"/>
+        </pattern>
+        <g id="flower" stroke="#759381" stroke-width="3" stroke-linecap="round">
+          <path d="M0 0v29m0-9-9-7m9 12 9-8" fill="none"/>
+          <g fill="#f5d69e" stroke="none">
+            <ellipse cy="-7" rx="5" ry="8"/><ellipse cy="7" rx="5" ry="8"/>
+            <ellipse cx="-7" rx="8" ry="5"/><ellipse cx="7" rx="8" ry="5"/>
+            <circle r="4" fill="#bf7b54"/>
+          </g>
+        </g>
+      </defs>
+      <!-- A soft oval landscape, entirely drawn with inline SVG. -->
+      <path d="M93 339C72 173 227 68 445 62 659 56 852 150 880 327 904 480 749 576 503 578 258 580 111 514 93 339Z" fill="url(#sky)"/>
+      <circle cx="726" cy="158" r="52" fill="#f3d69c"/>
+      <circle cx="710" cy="147" r="7" fill="#f8e5bd" opacity=".7"/>
+      <g fill="#fffaf0" opacity=".9">
+        <path d="M167 182c-18-2-17-25 0-28 1-28 42-34 54-10 20-9 39 5 37 22 28-1 30 17 10 20H167Z"/>
+        <path d="M588 112c-14-1-16-19-1-23 4-22 33-23 41-7 17-8 32 3 30 15 20-3 26 17 6 18Z"/>
+      </g>
+      <g fill="none" stroke="#9aaf9e" stroke-width="3" stroke-linecap="round">
+        <path d="M306 154q11-12 22 0 11-12 22 0M785 267q8-9 16 0 8-9 16 0"/>
+      </g>
+      <path d="M116 473q156-77 318-13 180-90 421-3c-64 88-187 125-362 122-182 2-309-32-377-106Z" fill="#d0dbc0"/>
+      <ellipse cx="491" cy="547" rx="255" ry="25" fill="#94afa0" opacity=".25"/>
+      <!-- Elephant: tail and far legs sit behind the body. -->
+      <g stroke="#587d85" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M294 367q-62 12-72 75" fill="none"/>
+        <path d="M221 430q-20 11-13 32 19-3 23-23" fill="#648b93" stroke="none"/>
+        <path d="M339 427l-5 98q0 15 19 15h37q16-1 17-17l13-90M538 431l7 91q1 17 18 17h35q16 0 16-17l-2-92" fill="#73969e"/>
+        <path d="M288 354c22-65 129-82 227-61 70 15 126 54 128 120 0 44-28 71-74 78l-8 42q-2 16-20 16h-37q-17 0-17-17l-1-42q-59 12-113-5l-11 49q-3 15-18 15h-36q-18 0-16-19l5-65c-31-24-42-70-9-111Z" fill="url(#elephant)"/>
+        <path d="M581 305c30-38 96-34 131 9 27 34 23 66 23 95v51c1 21 15 28 29 20 11-7 16-22 12-38-2-14 7-21 17-16 26 16 23 68-2 91-30 28-72 18-88-13-12-23-13-48-14-65-50 18-98-9-111-47" fill="url(#elephant)"/>
+        <path d="M594 316c-46-19-89 10-87 54 2 55 46 93 79 73 30-18 47-98 8-127Z" fill="#acc5c5"/>
+        <path d="M585 336c-30-14-54 6-52 35 1 28 20 53 37 52" fill="none" stroke="#89afb4" stroke-width="4"/>
+        <path d="M322 548v-12m17 12v-12m178 12v-12m18 12v-12" stroke="#c8d8d1" stroke-width="4"/>
+      </g>
+      <path d="M669 407q10 31 38 22-20-4-22-28" fill="#fff7df"/>
+      <path d="M660 357q10-12 20 0" fill="none" stroke="#365b64" stroke-width="5" stroke-linecap="round"/>
+      <ellipse cx="671" cy="381" rx="15" ry="9" fill="#d4a49b" opacity=".7"/>
+      <g stroke="#587d85" stroke-width="3" stroke-linecap="round"><path d="m740 476 13-2m-16-14 13-1m-3 33 10-6"/></g>
+      <!-- Saddle blanket. -->
+      <path d="M355 298q71-23 139 0l-5 78q-60 24-126-2Z" fill="url(#blanket)" stroke="#ae6658" stroke-width="4"/>
+      <path d="M361 365q70 21 129 0" fill="none" stroke="#f5d396" stroke-width="7"/>
+      <path d="M367 377v12m19-8v12m19-8v12m19-8v12m19-10v12m19-15v12m19-17v12" stroke="#d5a360" stroke-width="4" stroke-linecap="round"/>
+      <!-- Orange cat, with its paws resting across the elephant's back. -->
+      <g stroke="#996a45" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M397 294c-52 12-63-18-48-36 13-16 32-4 23 8-6 7-12 1-12 1" fill="none" stroke="#d69756" stroke-width="15"/>
+        <path d="M399 234c-21 24-24 51-13 66 11 16 60 17 80 2 8-8-9-57-22-68" fill="#e9ad68"/>
+        <path d="M397 265l-3 43q10 12 21 1l4-29m23-15 8 41q11 10 20-1l-11-33" fill="#f3bd7b"/>
+        <path d="m380 198-1-55 37 25q16-5 32 1l34-27-3 58c7 39-23 57-54 54-34 0-55-22-45-56Z" fill="#f0b373"/>
+        <path d="m387 159 3 24 13-9m66-15-16 15 16 11" fill="#d88677" stroke="none"/>
+        <path d="m418 171 3 14m13-13-2 13" stroke="#c58747" stroke-width="5"/>
+        <path d="m382 200 12 4m-12 7 12 3m73-13 10-3m-10 15 11-4" stroke="#c58747" stroke-width="4"/>
+        <path d="M401 209q6-8 12 0m27 0q6-8 12 0" fill="none" stroke="#664f3c"/>
+        <path d="m422 217 9 0-4 5Z" fill="#ac7366" stroke="none"/>
+        <path d="M427 222v4m0-1q-5 7-11 1m11-1q5 7 11 1" fill="none" stroke-width="2.5"/>
+        <path d="m400 222-24-4m25 11-23 3m76-10 25-5m-24 12 23 3" fill="none" stroke-width="2"/>
+      </g>
+      <ellipse cx="401" cy="221" rx="8" ry="5" fill="#e7957a" opacity=".7"/>
+      <ellipse cx="452" cy="221" rx="8" ry="5" fill="#e7957a" opacity=".7"/>
+      <path d="M394 243q29 12 60 0l-3 13q-28 10-54-1Z" fill="#628d77"/>
+      <path d="m447 250 29 28-22 2-18-26Z" fill="#749d80"/>
+      <path d="m451 258 13 15" stroke="#acc0a0" stroke-width="2" stroke-linecap="round"/>
+      <!-- Small meadow details. -->
+      <g fill="#92ae91">
+        <path d="M178 500q-37-36-31-62 30 7 31 62Z"/><path d="M178 500q-1-44 27-54 3 31-27 54Z"/>
+        <path d="M817 514q-27-33-18-59 24 13 18 59Z"/><path d="M817 514q3-39 33-43-3 30-33 43Z"/>
+      </g>
+      <use href="#flower" x="231" y="513"/><use href="#flower" x="750" y="545"/>
+      <use href="#flower" transform="translate(185 553) scale(.7)"/>
+      <g fill="none" stroke="#93ab87" stroke-width="3" stroke-linecap="round">
+        <path d="m271 565-5-11m5 11 7-13m381 11-5-10m5 10 7-13m-112 37-5-9m5 9 7-11"/>
+      </g>
+      <g fill="#b9c5a2"><ellipse cx="380" cy="581" rx="7" ry="3"/><ellipse cx="699" cy="552" rx="5" ry="3"/><ellipse cx="285" cy="522" rx="5" ry="2"/></g>
+      <path d="M528 206c-11-17-28-4-17 8l17 15 16-15c12-13-6-25-16-8Z" fill="#d18b76"/>
+    </svg>
+    <footer>小小的我，大大的你，刚刚好的友谊。</footer>
+  </main>
+</body>
+</html>
